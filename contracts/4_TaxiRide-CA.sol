@@ -17,6 +17,8 @@ contract TaxiRide {
         
     }
 
+    
+
 // Maps each ride to a unique ID and number of rides count and unique id
     mapping(uint => Ride) public rides; 
     uint public rideCount; 
