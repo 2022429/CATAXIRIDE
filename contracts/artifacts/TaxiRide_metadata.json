@@ -233,11 +233,11 @@
 	},
 	"sources": {
 		"contracts/4_TaxiRide-CA.sol": {
-			"keccak256": "0xfbfcef77fa9e79acdf342ca4a59b72b65471e9e7e3825fd9b21a04f043c1ce48",
+			"keccak256": "0xa998e86f3500e3d0be137e910315d641c4351755de5526fbfa47415faf2daae1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2b6e4b37f4951a59cf07c7e985f1e34e482c12485752e846e0541097c0c8da9f",
-				"dweb:/ipfs/QmXLdWiv94cxAUHAToWBqLLq7N2N3zDWSywKiwmvgoqeap"
+				"bzz-raw://effaa1b595645082bda6847c1580849027c3f9bd7e9bc3075556f290e1e055d0",
+				"dweb:/ipfs/QmTZZEmPd9F7J45KGpD892TESy6sdPsYsaaM3FYGC2siHm"
 			]
 		}
 	},
