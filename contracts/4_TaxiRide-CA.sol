@@ -36,8 +36,8 @@ contract TaxiRide {
     }
 
     // Constructor to set the contract deployer as the driver
-    constructor() {
-        driver = msg.sender; 
+     constructor() {
+        driver = msg.sender;
     }
 
     // Function to add a new ride with location and price, callable only by the driver and store new ride details, log the ride details 
