@@ -17,10 +17,10 @@ contract TaxiRide {
         
     }
 
-    
+
 
 // Maps each ride to a unique ID and number of rides count and unique id
-    mapping(uint => Ride) public rides; 
+    mapping(uint => Ride) public rides;    //Maping ride
     uint public rideCount; 
 
     // Events to log actions, visible on the blockchain and New ride added ,ride book , payment received.
