@@ -51,7 +51,8 @@ contract TaxiRide {
     // Function to book a ride, sending the required payment to the contract and ensure the rider id exists and rider details
     function bookRide(uint _rideId) public payable {
         require(_rideId < rideCount, "Invalid ride ID."); 
-        Ride storage ride = rides[_rideId]; 
+        Ride storage ride = rides[_rideId];     
+        
 
     // Sets the total cost of the ride and check the exact payment was sent
         uint totalCost = ride.price; 
